@@ -8,7 +8,12 @@ Usage: run SFMedu2.m in Matlab.
 
 Acknowledgement: Thanks for Fisher Yu for bug fixing and feedback. We also thanks many people for making their functions publicly available online. Note that the third party library may have different licenses that you need to follow. We include them for the convenience for the users and don't imply any copyright issues.
 
-Update: 4 features have been added to this stack
+Update:
+
+Author: Subramanian Krishnan
+Date  : Oct 12 2020
+
+4 features have been added to this stack
 1. Motion only bundle adjustment
 2. Structure only bundle adjustment
 3. Intrinsic camera optimization using bundle adjustment
