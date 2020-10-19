@@ -1,0 +1,32 @@
+To run baseline:
+Ensure other image paths are commented out and only B2i images are loaded in the data section
+Ensure the focal length line on 69 is uncommented and rest of the focal length setting is commented
+In sfmedu, Set 133 and 134 to false
+Run!
+
+To run other datasets:
+Ensure required image path is loaded in the data section 18-22 or 30-34
+Ensure the corresponding focal length segment is uncommented 71 or 73-78
+Run!
+
+To run motion only BA:
+Choose required dataset and focal length
+In bundle adjustment, uncomment 38-42 and comment 47-53
+In sfmedu, Set 133 and 134 to false
+Run!
+
+To run str only BA:
+Choose required dataset and focal length
+In bundle adjustment, uncomment 28-32 and comment 47-53
+In sfmedu, Set 133 and 134 to false
+Run!
+
+To run smart merge:
+choose req. dataset and focal length
+Uncomment smart merge section
+Comment standard merge section
+
+To run intrinsic optimization:
+Choose dataset and focal length
+In sfmedu, set 134 to True
+Run!
